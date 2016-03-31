@@ -22,7 +22,7 @@
 		<meta name='Robots' content="INDEX,FOLLOW" />
 		<meta name='Revisit-after' content="1 Day" />
 		<meta name='generator' content="Jekyll" />
-		<link rel='stylesheet' href='/stylesheets/screen.css' type='text/css' />
+		<link rel='stylesheet' href='{{ site.baseurl }}/stylesheets/screen.css' type='text/css' />
 	</head>
 	<body class='exhibits format-visual_index'>
 		<div id='index'>
@@ -36,7 +36,7 @@
 						{% for exhibit in site.categories.exhibit %}
 							<ul>
 							{% if exhibit.section == section.title %}
-								<li id='exhibit_{{exhibit.id}}' class='exhibit_title'><a href='{{exhibit.url}}'>{{exhibit.title}}</a></li>
+								<li id='exhibit_{{exhibit.id}}' class='exhibit_title'><a href='{{ site.baseurl }}{{exhibit.url}}'>{{exhibit.title}}</a></li>
 							{% endif %}
 							</ul>
 						{%  endfor %}
