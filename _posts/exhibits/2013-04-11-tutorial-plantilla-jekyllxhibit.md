@@ -4,8 +4,8 @@ layout: default
 category: exhibit
 title: "¿Cómo usar Jekyllxhibit?"
 section: "¡Tutoriales!"
-
 ---
+
 
 # Tutorial de la plantilla base *Jekyllxhibit*: creación de páginas Web por colaborativa.eu
 Última actualización: 22 de Abril de 2013
@@ -40,7 +40,7 @@ Hacemos click en **FORK this repo** localizado en la parte superior derecha y te
 
 ## 4. Renombrar plantilla [GitHub][6]
 
-Un paso más antes de comenzar a añadir contenidos. Tenemos que renombrar la actual plantilla teniendo en cuenta que:
+Un paso más antes de comenzar a añadir contenidos: Tenemos que renombrar la actual plantilla teniendo en cuenta que:
 
 * Si es una pagina de *perfil* y no disponemos de dominio propio o vamos a utilizar un dominio propio la plantilla hay que llamarla siguiendo la nomenclatura: 
 
